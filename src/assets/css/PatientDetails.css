@@ -1,0 +1,35 @@
+.patient-details-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.patient-details-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  min-width: 1200px;
+}
+
+.patient-details-table th,
+.patient-details-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.patient-details-table th {
+  background-color: #f2f2f2;
+}
+
+.patient-details-table td {
+  background-color: #fff;
+}
